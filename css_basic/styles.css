@@ -1,1 +1,35 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header, footer {
+  background-color: #eee;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+aside {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #eaeaea;
+}
