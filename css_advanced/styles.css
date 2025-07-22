@@ -92,3 +92,40 @@ header nav a {
   border-radius: 50%;
   margin-bottom: 1rem;
 }
+
+.tutorials {
+  padding: 2rem;
+  background-color: white;
+}
+
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.tutorial-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+  background-color: #fff;
+}
+
+.tutorial-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial-card img {
+  width: 100%;
+  height: auto;
+}
+
+.tutorial-content {
+  padding: 1rem;
+}
+
+.tutorial-content h3 {
+  margin-top: 0;
+}
+
