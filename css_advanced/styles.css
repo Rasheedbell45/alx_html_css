@@ -149,3 +149,38 @@ header nav a {
   padding-top: 0.5rem;
 }
 
+footer {
+  background-color: #512da8;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer .social-icons {
+  margin-top: 1rem;
+}
+
+footer .social-icons a {
+  margin: 0 0.5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .tutorial-grid {
+    grid-template-columns: 1fr;
+  }
+}
