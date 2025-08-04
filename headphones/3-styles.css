@@ -1,0 +1,56 @@
+/* CONTACT SECTION */
+.contact {
+  background-color: #fff;
+  color: #1C1F2A;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.contact h3 {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 5px rgba(255, 101, 101, 0.3);
+  outline: none;
+}
+
+.cta-button {
+  align-self: center;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.cta-button:hover,
+.cta-button:active {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
