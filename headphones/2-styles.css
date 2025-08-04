@@ -1,0 +1,46 @@
+/* RESULTS SECTION */
+.results {
+  background-color: var(--color-bg-dark);
+  color: var(--color-white);
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.results h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.results-intro {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+}
+
+.result-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-shape {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 2rem;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
