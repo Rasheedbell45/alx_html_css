@@ -1,3 +1,29 @@
+/* FOOTER SECTION */
+.site-footer {
+  background-color: var(--color-bg-dark);
+  color: var(--color-white);
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-right a {
+  color: var(--color-white);
+  margin-left: 1rem;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+  color: var(--color-primary);
+}
 @keyframes bounce-in {
   0%   { transform: scale(0.9); opacity: 0.8; }
   50%  { transform: scale(1.05); opacity: 1; }
